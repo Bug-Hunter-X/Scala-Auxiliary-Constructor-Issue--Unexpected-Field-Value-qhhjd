@@ -1,0 +1,13 @@
+```scala
+class MyClassSolution(val x: Int) {
+  def this() {
+    this(0) // Explicitly initialize x to 0
+  }
+}
+
+val myInstance = new MyClassSolution
+println(myInstance.x) // This prints 0
+
+val anotherInstance = new MyClassSolution(5)
+println(anotherInstance.x) // This prints 5
+```
